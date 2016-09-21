@@ -16,6 +16,7 @@ For reprogramming it, connect the "key" pin to 5V before powering the cortex. (D
 
 Here is the a diagram showing how to connect one model of HC-05 module to the cortex:
 ![Uart Connection Diagram](http://www.vexforum.com/index.php/attachment/56464da80f24e_Pinout_HC05.jpg)
+
 The black wire is ground, the red wire 5V.  The Green/Yellow wires are TX/RX wires which transmits the uart data (These should go from TX to RX port).  The blue wire is the "key" which, when when set to 3.3V/5V, puts the bluetooth dongle into the "reprogrammable state". On some models of the HC-05 that feature an 'en' pin where the key is featured here, you may have to provide 3.3V/5V to pin34 on the side (the top right-hand pin next to the antenna).
 
 For other advice or support, head over to the [vexforum post](http://www.vexforum.com/index.php/14783-bnsbluetooth-robotc-library-for-the-hc-05/0).
